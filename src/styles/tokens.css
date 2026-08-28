@@ -1,0 +1,30 @@
+:root {
+  --bg: #080510;
+  --bg-grad-1: rgba(124, 68, 255, 0.23);
+  --bg-grad-2: rgba(40, 19, 96, 0.24);
+  --surface: rgba(24, 13, 48, 0.72);
+  --surface-2: rgba(47, 24, 84, 0.68);
+  --fg: #f7f2ff;
+  --fg-muted: #c8b9df;
+  --fg-faint: #8f7fa9;
+  --hair: rgba(208, 174, 255, 0.22);
+  --hair-2: rgba(208, 174, 255, 0.12);
+  --primary: #b980ff;
+  --accent: linear-gradient(115deg, #f0c8ff 0%, #b980ff 42%, #7862ff 74%, #4d3bda 100%);
+  --accent-ink: #160a28;
+  --radius: 18px;
+  --radius-sm: 10px;
+  --radius-lg: 26px;
+  --shadow: 0 50px 120px -50px rgba(0, 0, 0, 0.9);
+  --glow: 0 26px 80px -40px rgba(151, 92, 255, 0.72);
+  --font-head: Inter, -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+  --font-body: Inter, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --dur: 0.4s;
+  --ease: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --grain: 0.035;
+  --vignette: rgba(0, 0, 0, 0.34);
+  --gutter: clamp(28px, 6vw, 120px);
+  --gutter-y: clamp(40px, 8vh, 96px);
+}
